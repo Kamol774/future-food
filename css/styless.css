@@ -1,0 +1,193 @@
+/* General styles */
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: 100%;
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* HEADER TOP */
+.container{
+  max-width: 1400px;
+  max-height: 80px;
+}
+
+.header-top{
+  display: flex;
+  height: 40px;
+  margin: 20px 115px;
+  align-items:center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.logo{
+  width: 124px;
+  height: 40px;
+}
+
+.header-list{
+  display: flex;
+  width: 890px;
+  height: 18px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: end;
+  list-style-type: none;
+}
+
+.header-list :not(:last-child){
+  margin-right: 35px;
+}
+
+/* MAIN CONTENT */
+
+.main-bg{
+  position: absolute;
+  width: 1400px;
+  height: 620px;
+}
+
+.main-text{
+  position: relative;
+  padding-top: 136px;
+  padding-left: 115px;
+}
+
+.main-title{
+  margin: 0;
+  width: 546px;
+  font-size: 60px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.main-describtion{
+  margin: 0;
+  margin-top: 37px;
+  width: 292px;
+  line-height: 136%;
+  font-size: 16px;
+  color: hsl(0, 0%, 70%);
+}
+
+.product-line{
+  margin-top: 50px;
+  background-color:#235AFF;
+  color:#FFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 270px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.sign{
+  width: 65px;
+  height: 65px;
+  display: flex;
+  position: relative;
+  margin-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.who-help{
+  z-index: 1;
+  width: 1170px;
+  font-size: 40px;  
+  text-align: center;
+  margin:0 115px;
+}
+
+.who-help_title{
+  margin-top: 100px;
+}
+
+.who-help-boxes{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.box{
+  background-color:#F4F9FF;
+  width: 370px;
+  height: 307px;
+}
+
+.list{
+  padding: 35px 30px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.item{
+  margin-right: auto;
+  margin-left: auto;
+  width: 55px;
+  height: 55px;
+}
+
+.item_title{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.item_text{
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.line{
+  margin: 100px 0px;  
+  border-bottom: 1px solid rgba(51, 51, 51, 20%);
+}  
+
+.manufacturer{
+  position: relative;
+  width: 585px;
+  height: 104px;
+  font-size: 40px;
+  line-height: 130%;
+  color: #132047;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 65px;
+}
+
+.box2{
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 45px;  
+}
+
+.middle{
+
+}
+
+.reinvent{
+  position: absolute;
+  width: 1400px;
+  height: 464px;
+}
+
+.short{
+  font-size: 16px;  
+}
