@@ -48,10 +48,16 @@ img {
   align-items: center;
   justify-content: end;
   list-style-type: none;
+  font-weight: bold;
 }
 
 .header-list :not(:last-child){
   margin-right: 35px;
+}
+
+.header-item{
+  color:#132047;
+  text-decoration: none;
 }
 
 /* MAIN CONTENT */
@@ -180,9 +186,6 @@ img {
   margin-bottom: 45px;  
 }
 
-.middle{
-  
-}
 
 .reinvent{
   position: absolute;
