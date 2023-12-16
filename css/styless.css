@@ -157,7 +157,7 @@ img {
 }
 
 .line{
-  margin: 100px 0px;  
+  margin: 100px 0px 80px 0;  
   border-bottom: 1px solid rgba(51, 51, 51, 20%);
 }  
 
@@ -576,4 +576,217 @@ content{
 
 .fmiddle-text{
   margin-left: 500px;
+}
+
+/* *******************************************PRODUCTS****************************************** */
+
+.our-products{
+  width: 1170px;
+  height: 400px;
+  padding-left: 115px;
+  padding-right: 115px;
+  padding-top: 20px;
+  background-color:#132047;
+}
+
+.address-link{
+  display: flex;
+}
+
+.home {
+  display: flex;
+  color:rgba(255, 255, 255, 50%);
+  text-decoration: none;
+}
+.home::before{
+  content:"";
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  align-self:center;
+  background: url("/img/home.svg") no-repeat center center / contain;
+}
+
+a{
+  color:#FFF;
+  text-decoration: none;
+}
+
+.title-img{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.title{
+  font-size: 60px;
+  color:#FFF;
+}
+
+.product-img{
+  margin-right: 50px; 
+}
+
+.main-points{
+  width: 1400px;
+  height: 170px;
+}
+
+.points-list{
+  display:flex;
+  background-color:#F4F9FF;
+  width: 1170px;
+  height: 184px;
+  margin: 80px 115px;
+  padding-left: 0;
+  list-style-type: none;
+}
+/* margin-bottom: 0; */
+
+.points-item{
+  margin: 40px 32px;
+  width: 335px;
+}
+.points-item:not(:first-child){
+  padding-left: 32px;
+  margin-left: 0;
+  border-left: 2px solid rgba(35, 90, 255, 20%);
+}
+
+.points-title{
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.points-text{
+  font-size: 16px;
+}
+
+/* ************************************************************************************ */
+
+.img-oil-tinctures{
+  display: flex;
+  margin-left: 115px;
+}
+
+.drug-cbd{
+  height: 388px;
+  width: 400px;
+}
+
+.drug-info{
+  font-size: 16px;
+  margin-left: 100px;
+}
+
+.drug-cbd-title{
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.drug-cbd-text{
+  width: 570px;
+  margin-top: 0;
+  color: #545F82;
+}
+
+.ingredient-box{
+  width: 670px;
+  height: 252px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color:#F4F9FF;
+  border-top-right-radius: 50px;
+}
+
+.compaund{
+  width: 250px;
+  margin-left: 30px;
+}
+
+.title-cbd{
+  margin-bottom: 10px;
+}
+.text-cbd{
+  margin-top: 0;
+}
+
+.cbd-order{
+  width: 200px;
+  height: 60px;
+  margin-top: 30px;
+  transform: translateX(470px);
+  margin-bottom: -50px;
+}
+
+.drug-cbd-title2{
+  margin-top: 0;
+}
+
+.ingredient-box2{
+  height: 200px;
+  margin-top: 40px;
+  border-top-right-radius:0;
+  border-top-left-radius: 50px;
+}
+
+.cbd-order2{
+  transform: translateX(0);
+}
+
+.ingredient-box3{
+  height: 140px;
+}
+
+.drug-cbd{
+  height: auto;
+}
+
+.title-cbd3{
+  margin-top: 12px;
+}
+
+.ingredient-box4{
+  height: 380px;
+  border-top-right-radius:0;
+  border-top-left-radius: 50px;
+}
+
+.drug-cbd{
+  margin-top: 80px;
+  height: 400px;
+}
+
+.last_pr{
+  font-size: 40px;
+  color:#132047;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.last_list{
+  width: 320px;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.last_title{
+  margin-top: 28px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.last_text{
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.last-box{
+  margin-left: 115px;
+  margin-right: 115px;
+  margin-bottom: 0;
 }
