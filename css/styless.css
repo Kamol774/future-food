@@ -101,7 +101,13 @@ img {
   height: 60px;
   border-radius: 50px;
   border: 0;
-  box-shadow:0px 20px 40px 1px rgba(42, 47, 52, 30%) ;
+  box-shadow:0px 20px 40px 1px rgba(42, 47, 52, 30%);
+}
+
+.product-line:hover{
+  border:5px solid rgba(252, 252, 252, 0.3);
+  box-shadow:0px 20px 40px 1px rgba(42, 47, 52, 30%);
+  cursor: pointer;
 }
 
 .sign{
@@ -596,9 +602,12 @@ content{
   display: flex;
 }
 
+.grey{
+  color:rgba(255, 255, 255, 50%);
+}
+
 .home {
   display: flex;
-  color:rgba(255, 255, 255, 50%);
   text-decoration: none;
 }
 .home::before{
@@ -639,12 +648,11 @@ a{
   display:flex;
   background-color:#F4F9FF;
   width: 1170px;
-  height: 184px;
+  height: 200px;
   margin: 80px 115px;
   padding-left: 0;
   list-style-type: none;
 }
-/* margin-bottom: 0; */
 
 .points-item{
   margin: 40px 32px;
@@ -742,7 +750,7 @@ a{
   height: 140px;
 }
 
-.drug-cbd{
+.drug-cbd3{
   height: auto;
 }
 
@@ -792,4 +800,45 @@ a{
   margin-left: 115px;
   margin-right: 115px;
   margin-bottom: 0;
+}
+
+/* *************************************Ingestibles.html******************************************************************** */
+
+.ingestible-title{
+  text-align:center;
+  font-size: 40px;
+  color:#132047;
+}
+
+.list-of-ingestibles{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1095px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ingestibles-list{
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.ingestible-img{
+  width: 200px;
+  height: 200px;
+}
+
+.ingestible-name{
+  width: 150px;
+  height: 42px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.cost{
+  margin-top: 0;
+  font-weight: bold;
+  color: #235AFF;
 }
