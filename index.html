@@ -6,8 +6,36 @@
   <title>Main page</title>
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/styless.css">
+  <link rel="stylesheet" href="css/magnific-popup.min.css">
+  <link rel="stylesheet" href="css/anime.css">
+
 </head>
 <body>
+  <div class="modal-form mfp-hide mfp-with-anim" id="modal-form">
+    <div class="modal-form-list ">
+      <h4 class="modal-form-title">Still have questions?</h4>
+      <div class="modal-form-def">Request a call back and we will contact you!</div>
+      <div class="input-name">
+        <img class="input-img" src="/img/user.png" alt="" >
+        <input class="mfp-name mpf-form" type="text" placeholder="Enter your name">
+      </div>  <br>
+      <div class="input-number">
+        <img class="input-img" src="/img/call.png" alt="" >
+        <input class="mfp-number mpf-form" type="number" placeholder="Your phone number">
+      </div> <br>
+      <a class="product-line mfp-btn"  href="#mfp-con" data-effect="mfp-move-from-top">Submit</a>
+    </div>
+  </div>
+  
+  <div class="mfp-con mfp-hide mfp-with-anim" id="mfp-con">
+    <div class="modal-form-list">
+      <h4 class="modal-form-title">Data sent successfully!</h4>
+      <div class="modal-form-def">We will contact you shortly</div>
+      <button class="product-linee mfp-btnn modal-form-close">ok</button>
+    </div>
+  </div>
+
+
   <container class="">
     <header class="header-top">
       <div class="logo">
@@ -29,7 +57,7 @@
       <div class="main-text">
         <h2 class="main-title">Novel Food CBD White Label</h2>
         <p class="main-describtion">Here under the title you can place the text, which will describe the essence of this site in a few sentences.</p>
-        <button class="product-line" type="button">CBD product line</button>
+        <a class="services-btn product-line" href="#modal-form" data-effect="mfp-3d-unfold">CBD product line</a>
       </div>
       <img class="sign" src="/img/sign.png" alt="" >
     </main>
@@ -241,5 +269,9 @@
       </div>
     </div>
   </container>
+  <script src="js/script.js"></script>
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/magnific-popup.min.js"></script>
+  
 </body>
 </html>

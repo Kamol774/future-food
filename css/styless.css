@@ -91,7 +91,10 @@ img {
   color: hsl(0, 0%, 70%);
 }
 
-.product-line{
+.product-line, .product-linee{
+  display: flex;
+  align-items:center;
+  justify-content: center;
   margin-top: 50px;
   background-color:#235AFF;
   color:#FFF;
@@ -104,10 +107,68 @@ img {
   box-shadow:0px 20px 40px 1px rgba(42, 47, 52, 30%);
 }
 
-.product-line:hover{
-  border:5px solid rgba(252, 252, 252, 0.3);
+.product-line:hover, .product-linee:hover{
+  background-color:#032eaf;
   box-shadow:0px 20px 40px 1px rgba(42, 47, 52, 30%);
   cursor: pointer;
+}
+
+.modal-form{
+  background-color: #fff;
+  width: 570px;
+  height: 450px;
+  margin: 0 auto;
+}
+.mfp-con{
+  background-color: #fff;
+  width: 570px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.modal-form-list{
+  text-align: center;
+}
+
+.modal-form-title{
+  margin: 0;
+  padding: 45px 0 15px 0;
+  font-size: 28px;
+}
+
+.modal-form-def{
+  font-size: 20px;
+  color:#545F82;
+  margin-bottom: 35px;
+}
+
+.mfp-button{
+  display: block;
+}
+
+.mpf-form{
+  width: 350px;
+  height: 60px;
+  border:0;
+  background-color:#F1F3F3;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.input-img{
+  transform: translateX(40px);
+}
+
+.mfp-name{
+  margin-bottom: 15px;
+}
+
+.mfp-number{
+  
+}
+
+.mfp-btn, .mfp-btnn{
+  margin: 25px auto 0 auto;
 }
 
 .sign{
@@ -221,7 +282,7 @@ img {
 }
 
 .product-line2{
-  margin-top: 50px;
+  margin: 50px auto 0 auto;
 }
 
 .img-icons{
@@ -597,6 +658,14 @@ content{
   padding-top: 20px;
   background-color:#132047;
 }
+.our-products2{
+  width: 1170px;
+  height: 400px;
+  padding-left: 115px;
+  padding-right: 115px;
+  padding-top: 20px;
+  background-color:#FFF;
+}
 
 .address-link{
   display: flex;
@@ -841,4 +910,13 @@ a{
   margin-top: 0;
   font-weight: bold;
   color: #235AFF;
+}
+
+.header-line{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.address-link2{
+  color:#235AFF;
 }
